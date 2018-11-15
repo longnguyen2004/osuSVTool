@@ -57,9 +57,11 @@ public:
         duration = new QDoubleSpinBox(NxSpeedChange);
         duration->setObjectName(QStringLiteral("duration"));
         duration->setGeometry(QRect(300, 70, 62, 22));
-        duration->setMinimum(0.01);
-        duration->setMaximum(10);
-        duration->setSingleStep(0.01);
+        duration->setDecimals(3);
+        duration->setMinimum(0.001);
+        duration->setMaximum(1);
+        duration->setSingleStep(0.001);
+        duration->setValue(0.001);
         label_3 = new QLabel(NxSpeedChange);
         label_3->setObjectName(QStringLiteral("label_3"));
         label_3->setGeometry(QRect(196, 65, 91, 30));

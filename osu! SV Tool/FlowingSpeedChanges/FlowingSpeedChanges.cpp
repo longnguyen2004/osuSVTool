@@ -5,12 +5,12 @@
 
 #define PI acos(-1)
 
-double logn(double base, double x)													// base-n log
+inline double logn(double base, double x)											// base-n log
 {
 	return log(x) / log(base);
 }
 
-double map(double val, double a, double b, double c, double d)
+inline double map(double val, double a, double b, double c, double d)				// map range [a, b] to range [c, d] 
 {
 	return (val - a) * (d - c) / (b - a) + c;
 }
@@ -33,7 +33,7 @@ void FlowingSpeedChanges::ExtraSettings(int mode)
 			this->ui.label_base->setText(QStringLiteral("Log base"));
 			break;
 		}
-		default:
+		default:																	// Everything else
 		{
 			this->ui.label_base->setHidden(true);
 			this->ui.base->setHidden(true);
@@ -50,7 +50,7 @@ void FlowingSpeedChanges::Generate()
 	double sv1 = this->ui.sv1->value();
 	double sv2 = this->ui.sv2->value();
 	unsigned int step = this->ui.step->value();
-	unsigned long long currentoffset;
+	double currentoffset;
 	double timestep = floor((time2 - time1) / step);
 	unsigned int mode = this->ui.type->currentIndex();
 	double currentsv;
@@ -59,40 +59,39 @@ void FlowingSpeedChanges::Generate()
 		currentoffset = time1 + timestep * currentstep;
 		switch (mode)
 		{
-			case 0:																			// Linear
+			case 0:																		// Linear
 			{
 				double svstep = (sv2 - sv1) / step;
-				currentsv = sv1 + svstep * currentstep;
+				currentsv = map(currentstep, 0, step, sv1, sv2);
 				break;
 			}
-			case 1:																			// Quadratic
+			case 1:																		// Quadratic
 			{
 				double svstep = (sv2 - sv1) / step;
-				currentsv = sv1 + pow((double)currentstep / (double)step, 2) * svstep;
+				currentsv = map(currentstep*currentstep, 0, step*step, sv1, sv2);
 				break;
 			}
-			case 2:																			// Sine
+			case 2:																		// Sine
 			{
 				double mag = sv2 - sv1;
-				currentsv = sv1 + mag * abs(sin((double)currentstep / (double)step * PI));
+				currentsv = map(abs(sin((double)currentstep / (double)step * PI)), 0, 1, sv1, sv2);
 				break;
 			}
-			case 3:																			// Exponential
+			case 3:																		// Exponential
 			{
 				double mag = sv2 - sv1;
 				double expbase = this->ui.base->value();
-				currentsv = sv1 + mag * map(pow(expbase, (double)currentstep / (double)step), 1, expbase, 0, 1);
+				currentsv = map(pow(expbase, (double)currentstep / (double)step), 1, expbase, sv1, sv2);
 				break;
 			}
-			case 4:																			// Logarithmic
+			case 4:																		// Logarithmic
 			{
 				double mag = sv2 - sv1;
 				double logbase = this->ui.base->value();
-				currentsv = sv1 + mag * logn(logbase, map((double)currentstep / (double)step, 0, 1, 1, logbase));
+				currentsv = map(logn(logbase, map((double)currentstep / (double)step, 0, 1, 1, logbase)), 0, 1, sv1, sv2);;
 				break;
 			}
 		}
-		qDebug() << currentsv;
 		InheritedTimingPoint newsv(currentoffset, currentsv);
 		this->ui.output->append(QString::fromStdString(newsv.to_string()));
 	}

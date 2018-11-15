@@ -12,10 +12,8 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -29,8 +27,6 @@ public:
     QPushButton *MoveTimingPoints;
     QPushButton *InheritUninherit;
     QPushButton *FlowingSpeedChanges;
-    QMenuBar *menuBar;
-    QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *osuSVToolClass)
@@ -42,27 +38,20 @@ public:
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         NxSpeedChange = new QPushButton(centralWidget);
         NxSpeedChange->setObjectName(QStringLiteral("NxSpeedChange"));
-        NxSpeedChange->setGeometry(QRect(40, 10, 201, 51));
+        NxSpeedChange->setGeometry(QRect(40, 40, 201, 51));
         BPMNormalize = new QPushButton(centralWidget);
         BPMNormalize->setObjectName(QStringLiteral("BPMNormalize"));
-        BPMNormalize->setGeometry(QRect(300, 10, 201, 51));
+        BPMNormalize->setGeometry(QRect(300, 40, 201, 51));
         MoveTimingPoints = new QPushButton(centralWidget);
         MoveTimingPoints->setObjectName(QStringLiteral("MoveTimingPoints"));
-        MoveTimingPoints->setGeometry(QRect(40, 80, 201, 51));
+        MoveTimingPoints->setGeometry(QRect(40, 110, 201, 51));
         InheritUninherit = new QPushButton(centralWidget);
         InheritUninherit->setObjectName(QStringLiteral("InheritUninherit"));
-        InheritUninherit->setGeometry(QRect(300, 80, 201, 51));
+        InheritUninherit->setGeometry(QRect(300, 110, 201, 51));
         FlowingSpeedChanges = new QPushButton(centralWidget);
         FlowingSpeedChanges->setObjectName(QStringLiteral("FlowingSpeedChanges"));
-        FlowingSpeedChanges->setGeometry(QRect(40, 150, 201, 51));
+        FlowingSpeedChanges->setGeometry(QRect(40, 180, 201, 51));
         osuSVToolClass->setCentralWidget(centralWidget);
-        menuBar = new QMenuBar(osuSVToolClass);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 541, 21));
-        osuSVToolClass->setMenuBar(menuBar);
-        mainToolBar = new QToolBar(osuSVToolClass);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
-        osuSVToolClass->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(osuSVToolClass);
         statusBar->setObjectName(QStringLiteral("statusBar"));
         osuSVToolClass->setStatusBar(statusBar);
@@ -79,7 +68,8 @@ public:
 "(For bumps, glitches, etc...)", nullptr));
         BPMNormalize->setText(QApplication::translate("osuSVToolClass", "Normalize BPM changes", nullptr));
         MoveTimingPoints->setText(QApplication::translate("osuSVToolClass", "Move timing points", nullptr));
-        InheritUninherit->setText(QApplication::translate("osuSVToolClass", "Inherited -> Uninherited", nullptr));
+        InheritUninherit->setText(QApplication::translate("osuSVToolClass", "Inherited <-> Uninherited\n"
+"(Useful for osu! <-> BMS conversion)", nullptr));
         FlowingSpeedChanges->setText(QApplication::translate("osuSVToolClass", "Flowing speedups and slowdowns", nullptr));
     } // retranslateUi
 

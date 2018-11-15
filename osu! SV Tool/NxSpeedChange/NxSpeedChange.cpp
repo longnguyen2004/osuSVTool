@@ -14,6 +14,9 @@ NxSpeedChange::NxSpeedChange(QWidget *parent)
 	: QDialog(parent)
 {
 	ui.setupUi(this);
+	this->ui.baseSV->setSuffix(QStringLiteral("x"));
+	this->ui.firstSV->setSuffix(QStringLiteral("x"));
+	this->ui.secondSV->setSuffix(QStringLiteral("x"));
 	connect(this->ui.calculateSV, SIGNAL(pressed()), this, SLOT(Calculate()));
 	this->setAttribute(Qt::WA_DeleteOnClose);
 }

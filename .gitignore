@@ -1,0 +1,101 @@
+
+.vs/osuSVTool/v15/.suo
+.vs/osuSVTool/v15/Browse.VC.db
+.vs/osuSVTool/v15/Browse.VC.opendb
+.vs/osuSVTool/v15/ipch/AutoPCH/1f8c5b43870eb668/MOC_BPMNORMALIZATION.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/2910febc34cbf03e/MOC_OSUSVTOOL.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/3e77b051c96fee2/MOC_FLOWINGSPEEDCHANGES.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/4b2b70631823d561/MOC_BPMNORMALIZATION.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/55320d7eadec016c/MOC_BPMNORMALIZATION.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/57e1509bd2f8cc67/MOC_MOVETIMINGPOINTS.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/6aafcb4e8bf18e54/MOC_BPMNORMALIZATION.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/991ba245906a54a4/MOC_BPMNORMALIZATION.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/baf75d74e99ec30b/MOC_NXSPEEDCHANGE.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/ce5b953f17a567be/MOC_NXSPEEDCHANGE.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/ce7531782565fb5c/MOC_NXSPEEDCHANGE.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/d21a5b39ff696932/IOMANIP.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/e32abeea15028733/MOC_BPMNORMALIZATION.ipch
+.vs/osuSVTool/v15/ipch/AutoPCH/ec7c6ac2d09c3d5e/MOC_FLOWINGSPEEDCHANGES.ipch
+.vs/osuSVTool/v15/ipch/e97cbad03f69f887.ipch
+.vs/osuSVTool/v15/ipch/eb838c2d23a1dbc7.ipch
+osu! SV Tool/x64/Debug/BPMNormalization.obj
+osu! SV Tool/x64/Debug/FlowingSpeedChanges.obj
+osu! SV Tool/x64/Debug/main.obj
+osu! SV Tool/x64/Debug/moc_BPMNormalization.obj
+osu! SV Tool/x64/Debug/moc_FlowingSpeedChanges.obj
+osu! SV Tool/x64/Debug/moc_MoveTimingPoints.obj
+osu! SV Tool/x64/Debug/moc_NxSpeedChange.obj
+osu! SV Tool/x64/Debug/moc_osuSVTool.obj
+osu! SV Tool/x64/Debug/MoveTimingPoints.obj
+osu! SV Tool/x64/Debug/NxSpeedChange.obj
+osu! SV Tool/x64/Debug/osu! SV Tool.log
+osu! SV Tool/x64/Debug/osu! SV Tool.pch
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/CL.command.1.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/CL.read.1.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/CL.write.1.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/link.command.1.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/link.read.1.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/link.write.1.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/osu! SV Tool.lastbuildstate
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/osu! SV Tool.write.1u.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/QtMoc.read.1u.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/QtMoc.write.1u.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/QtRcc.read.1u.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/QtRcc.write.1u.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/QtUic.read.1u.tlog
+osu! SV Tool/x64/Debug/osu! SV Tool.tlog/QtUic.write.1u.tlog
+osu! SV Tool/x64/Debug/osuSVTool.obj
+osu! SV Tool/x64/Debug/qrc_osuSVTool.obj
+osu! SV Tool/x64/Debug/qt.log
+osu! SV Tool/x64/Debug/stdafx.obj
+osu! SV Tool/x64/Debug/TimingPointClass.obj
+osu! SV Tool/x64/Debug/vc141.pdb
+osu! SV Tool/x64/Release/BPMNormalization.obj
+osu! SV Tool/x64/Release/FlowingSpeedChanges.obj
+osu! SV Tool/x64/Release/main.obj
+osu! SV Tool/x64/Release/moc_BPMNormalization.obj
+osu! SV Tool/x64/Release/moc_FlowingSpeedChanges.obj
+osu! SV Tool/x64/Release/moc_MoveTimingPoints.obj
+osu! SV Tool/x64/Release/moc_NxSpeedChange.obj
+osu! SV Tool/x64/Release/moc_osuSVTool.obj
+osu! SV Tool/x64/Release/MoveTimingPoints.obj
+osu! SV Tool/x64/Release/NxSpeedChange.obj
+osu! SV Tool/x64/Release/osu! SV Tool.Build.CppClean.log
+osu! SV Tool/x64/Release/osu! SV Tool.log
+osu! SV Tool/x64/Release/osu! SV Tool.pch
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/CL.command.1.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/CL.read.1.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/CL.write.1.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/link.command.1.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/link.read.1.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/link.write.1.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/osu! SV Tool.lastbuildstate
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/osu! SV Tool.write.1u.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/QtMoc.read.1u.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/QtMoc.write.1u.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/QtRcc.read.1u.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/QtRcc.write.1u.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/QtUic.read.1u.tlog
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/QtUic.write.1u.tlog
+osu! SV Tool/x64/Release/osuSVTool.obj
+osu! SV Tool/x64/Release/qrc_osuSVTool.obj
+osu! SV Tool/x64/Release/qt.log
+osu! SV Tool/x64/Release/stdafx.obj
+osu! SV Tool/x64/Release/TimingPointClass.obj
+osu! SV Tool/x64/Release/vc141.idb
+osu! SV Tool/x64/Release/vc141.pdb
+x64/Debug/osu! SV Tool.exe
+x64/Debug/osu! SV Tool.ilk
+x64/Debug/osu! SV Tool.pdb
+x64/Debug/Qt5Cored.dll
+x64/Debug/Qt5Guid.dll
+x64/Debug/Qt5Widgetsd.dll
+x64/Release/osu! SV Tool.exe
+x64/Release/osu! SV Tool.ilk
+x64/Release/osu! SV Tool.pdb
+x64/Release/Qt5Core.dll
+x64/Release/Qt5Gui.dll
+x64/Release/Qt5Widgets.dll
+*.ipch
+*.obj
+osu! SV Tool/x64/Release/osu! SV Tool.tlog/unsuccessfulbuild

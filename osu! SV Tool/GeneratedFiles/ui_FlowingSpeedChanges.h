@@ -104,7 +104,9 @@ public:
         base = new QDoubleSpinBox(FlowingSpeedChanges);
         base->setObjectName(QStringLiteral("base"));
         base->setGeometry(QRect(420, 60, 62, 22));
-        base->setMaximum(10);
+        base->setMinimum(0.01);
+        base->setMaximum(100);
+        base->setSingleStep(0.01);
         label_base = new QLabel(FlowingSpeedChanges);
         label_base->setObjectName(QStringLiteral("label_base"));
         label_base->setGeometry(QRect(420, 30, 61, 16));
