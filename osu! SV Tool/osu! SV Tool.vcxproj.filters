@@ -23,6 +23,9 @@
     <ClCompile Include="FlowingSpeedChanges\FlowingSpeedChanges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InheritUninherit\InheritUninherit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Resource Files">
@@ -85,6 +88,9 @@
     <QtMoc Include="FlowingSpeedChanges\FlowingSpeedChanges.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="InheritUninherit\InheritUninherit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="osuSVTool.ui">
@@ -100,6 +106,9 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="FlowingSpeedChanges\FlowingSpeedChanges.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="InheritUninherit\InheritUninherit.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

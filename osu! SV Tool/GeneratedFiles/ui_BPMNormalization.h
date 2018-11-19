@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'BPMNormalization.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.1
+** Created by: Qt User Interface Compiler version 5.11.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -38,7 +38,7 @@ public:
         baseBPM = new QDoubleSpinBox(BPMNormalization);
         baseBPM->setObjectName(QStringLiteral("baseBPM"));
         baseBPM->setGeometry(QRect(200, 20, 62, 22));
-        baseBPM->setMaximum(2.14748e+9);
+        baseBPM->setMaximum(2.14748e+09);
         label = new QLabel(BPMNormalization);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(140, 20, 47, 21));

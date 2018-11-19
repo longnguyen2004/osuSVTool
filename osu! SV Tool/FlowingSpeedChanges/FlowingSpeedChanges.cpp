@@ -51,7 +51,7 @@ void FlowingSpeedChanges::Generate()
 	double sv2 = this->ui.sv2->value();
 	unsigned int step = this->ui.step->value();
 	double currentoffset;
-	double timestep = floor((time2 - time1) / step);
+	double timestep = (time2 - time1) / step;
 	unsigned int mode = this->ui.type->currentIndex();
 	double currentsv;
 	for (unsigned int currentstep = 0; currentstep <= step; currentstep++)
