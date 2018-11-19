@@ -26,6 +26,9 @@
     <ClCompile Include="InheritUninherit\InheritUninherit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BPMGenerator\BPMGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Resource Files">
@@ -71,6 +74,9 @@
     <ClInclude Include="GeneratedFiles\ui_FlowingSpeedChanges.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_BPMGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="osuSVTool.h">
@@ -91,6 +97,9 @@
     <QtMoc Include="InheritUninherit\InheritUninherit.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="BPMGenerator\BPMGenerator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="osuSVTool.ui">
@@ -109,6 +118,9 @@
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="InheritUninherit\InheritUninherit.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BPMGenerator\BPMGenerator.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

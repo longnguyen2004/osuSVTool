@@ -4,6 +4,7 @@
 #include "BPMNormalization.h"
 #include "MoveTimingPoints.h"
 #include "FlowingSpeedChanges.h"
+#include "BPMGenerator.h"
 
 void osuSVTool::ShowNxSpeedChange()
 {
@@ -29,6 +30,12 @@ void osuSVTool::ShowFlowingSpeedChanges()
 	w->exec();
 }
 
+void osuSVTool::ShowBPMGenerator()
+{
+	BPMGenerator *w = new BPMGenerator();
+	w->exec();
+}
+
 osuSVTool::osuSVTool(QWidget *parent)
 	: QMainWindow(parent)
 {
@@ -38,4 +45,5 @@ osuSVTool::osuSVTool(QWidget *parent)
 	connect(this->ui.MoveTimingPoints, SIGNAL(pressed()), this, SLOT(ShowMoveTimingPoints()));
 	connect(this->ui.InheritUninherit, SIGNAL(pressed()), this, SLOT(ShowInheritedtoUninherited()));
 	connect(this->ui.FlowingSpeedChanges, SIGNAL(pressed()), this, SLOT(ShowFlowingSpeedChanges()));
+	connect(this->ui.BPMGen, SIGNAL(pressed()), this, SLOT(ShowBPMGenerator()));
 }

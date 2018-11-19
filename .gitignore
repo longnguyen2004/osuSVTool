@@ -124,3 +124,16 @@ osu! SV Tool/GeneratedFiles/Release/moc_movetimingpoints.cpp
 osu! SV Tool/GeneratedFiles/Release/moc_flowingspeedchanges.cpp
 osu! SV Tool/GeneratedFiles/Release/moc_bpmnormalization.cpp
 osu! SV Tool/GeneratedFiles/Release/moc_bpmnormalization.cpp
+osu! SV Tool/GeneratedFiles/Debug/moc_bpmnormalization.cpp
+osu! SV Tool/GeneratedFiles/Debug/moc_FlowingSpeedChanges.cpp
+osu! SV Tool/GeneratedFiles/Debug/moc_MoveTimingPoints.cpp
+osu! SV Tool/GeneratedFiles/Debug/moc_NxSpeedChange.cpp
+osu! SV Tool/GeneratedFiles/Debug/moc_osusvtool.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_bpmgenerator.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_bpmnormalization.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_flowingspeedchanges.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_movetimingpoints.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_nxspeedchange.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_osuSVTool.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_svplotter.cpp
+osu! SV Tool/GeneratedFiles/qrc_osuSVTool.cpp

@@ -81,6 +81,19 @@
      <string>Flowing speedups and slowdowns</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="BPMGen">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>180</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aleph-0 style BPM generator</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>

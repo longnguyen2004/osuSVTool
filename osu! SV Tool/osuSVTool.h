@@ -19,4 +19,5 @@ public slots:
 	void ShowMoveTimingPoints();
 	// void ShowInheritedtoUninherited();
 	void ShowFlowingSpeedChanges();
+	void ShowBPMGenerator();
 };

@@ -27,6 +27,7 @@ public:
     QPushButton *MoveTimingPoints;
     QPushButton *InheritUninherit;
     QPushButton *FlowingSpeedChanges;
+    QPushButton *BPMGen;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *osuSVToolClass)
@@ -51,6 +52,9 @@ public:
         FlowingSpeedChanges = new QPushButton(centralWidget);
         FlowingSpeedChanges->setObjectName(QStringLiteral("FlowingSpeedChanges"));
         FlowingSpeedChanges->setGeometry(QRect(40, 180, 201, 51));
+        BPMGen = new QPushButton(centralWidget);
+        BPMGen->setObjectName(QStringLiteral("BPMGen"));
+        BPMGen->setGeometry(QRect(300, 180, 201, 51));
         osuSVToolClass->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(osuSVToolClass);
         statusBar->setObjectName(QStringLiteral("statusBar"));
@@ -71,6 +75,7 @@ public:
         InheritUninherit->setText(QApplication::translate("osuSVToolClass", "Inherited <-> Uninherited\n"
 "(Useful for osu! <-> BMS conversion)", nullptr));
         FlowingSpeedChanges->setText(QApplication::translate("osuSVToolClass", "Flowing speedups and slowdowns", nullptr));
+        BPMGen->setText(QApplication::translate("osuSVToolClass", "Aleph-0 style BPM generator", nullptr));
     } // retranslateUi
 
 };
