@@ -5,7 +5,7 @@
 #include <iomanip>
 #include <iostream>
 
-static const std::regex parser("(\\d+),(-?\\d+\\.\\d+),(\\d+),(\\d+),(\\d+),(\\d{1,3}),([01]),([01])");
+static const std::regex parser("(\\d+),(-?\\d+\\.?\\d+?),(\\d+),(\\d+),(\\d+),(\\d{1,3}),([01]),([01])");
 
 TimingPoint::TimingPoint(std::string s)
 {
