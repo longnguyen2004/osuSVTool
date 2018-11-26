@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'BPMNormalization.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.2
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -33,30 +33,30 @@ public:
     void setupUi(QWidget *BPMNormalization)
     {
         if (BPMNormalization->objectName().isEmpty())
-            BPMNormalization->setObjectName(QStringLiteral("BPMNormalization"));
+            BPMNormalization->setObjectName(QString::fromUtf8("BPMNormalization"));
         BPMNormalization->resize(400, 479);
         baseBPM = new QDoubleSpinBox(BPMNormalization);
-        baseBPM->setObjectName(QStringLiteral("baseBPM"));
+        baseBPM->setObjectName(QString::fromUtf8("baseBPM"));
         baseBPM->setGeometry(QRect(200, 20, 62, 22));
-        baseBPM->setMaximum(2.14748e+09);
+        baseBPM->setMaximum(2147483647.000000000000000);
         label = new QLabel(BPMNormalization);
-        label->setObjectName(QStringLiteral("label"));
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(140, 20, 47, 21));
         origTiming = new QTextEdit(BPMNormalization);
-        origTiming->setObjectName(QStringLiteral("origTiming"));
+        origTiming->setObjectName(QString::fromUtf8("origTiming"));
         origTiming->setGeometry(QRect(70, 90, 261, 141));
         label_2 = new QLabel(BPMNormalization);
-        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(140, 60, 131, 16));
         normSV = new QTextEdit(BPMNormalization);
-        normSV->setObjectName(QStringLiteral("normSV"));
+        normSV->setObjectName(QString::fromUtf8("normSV"));
         normSV->setGeometry(QRect(70, 270, 261, 141));
         normSV->setReadOnly(true);
         label_3 = new QLabel(BPMNormalization);
-        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(180, 240, 41, 16));
         normalize = new QPushButton(BPMNormalization);
-        normalize->setObjectName(QStringLiteral("normalize"));
+        normalize->setObjectName(QString::fromUtf8("normalize"));
         normalize->setGeometry(QRect(160, 430, 75, 23));
 
         retranslateUi(BPMNormalization);

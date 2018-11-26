@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'BPMGenerator.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.2
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -43,72 +43,72 @@ public:
     void setupUi(QDialog *BPMGenerator)
     {
         if (BPMGenerator->objectName().isEmpty())
-            BPMGenerator->setObjectName(QStringLiteral("BPMGenerator"));
+            BPMGenerator->setObjectName(QString::fromUtf8("BPMGenerator"));
         BPMGenerator->resize(510, 449);
         label = new QLabel(BPMGenerator);
-        label->setObjectName(QStringLiteral("label"));
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(60, 30, 51, 21));
         label_2 = new QLabel(BPMGenerator);
-        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(60, 60, 51, 21));
         label_3 = new QLabel(BPMGenerator);
-        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(230, 30, 51, 21));
         label_6 = new QLabel(BPMGenerator);
-        label_6->setObjectName(QStringLiteral("label_6"));
+        label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setGeometry(QRect(240, 120, 47, 16));
         output = new QTextEdit(BPMGenerator);
-        output->setObjectName(QStringLiteral("output"));
+        output->setObjectName(QString::fromUtf8("output"));
         output->setGeometry(QRect(30, 150, 451, 211));
         output->setReadOnly(true);
         label_7 = new QLabel(BPMGenerator);
-        label_7->setObjectName(QStringLiteral("label_7"));
+        label_7->setObjectName(QString::fromUtf8("label_7"));
         label_7->setGeometry(QRect(380, 30, 111, 81));
         label_7->setTextFormat(Qt::AutoText);
         label_7->setScaledContents(false);
         label_7->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
         label_7->setWordWrap(true);
         generate = new QPushButton(BPMGenerator);
-        generate->setObjectName(QStringLiteral("generate"));
+        generate->setObjectName(QString::fromUtf8("generate"));
         generate->setGeometry(QRect(220, 390, 75, 23));
         label_4 = new QLabel(BPMGenerator);
-        label_4->setObjectName(QStringLiteral("label_4"));
+        label_4->setObjectName(QString::fromUtf8("label_4"));
         label_4->setGeometry(QRect(230, 60, 51, 21));
         beatstep = new QSpinBox(BPMGenerator);
-        beatstep->setObjectName(QStringLiteral("beatstep"));
+        beatstep->setObjectName(QString::fromUtf8("beatstep"));
         beatstep->setGeometry(QRect(290, 60, 51, 22));
         beatstep->setMinimum(1);
         beatstep->setMaximum(16);
         bpmstep = new QSpinBox(BPMGenerator);
-        bpmstep->setObjectName(QStringLiteral("bpmstep"));
+        bpmstep->setObjectName(QString::fromUtf8("bpmstep"));
         bpmstep->setGeometry(QRect(290, 30, 51, 22));
         bpmstep->setMinimum(-10);
         bpmstep->setMaximum(10);
         start = new QSpinBox(BPMGenerator);
-        start->setObjectName(QStringLiteral("start"));
+        start->setObjectName(QString::fromUtf8("start"));
         start->setGeometry(QRect(120, 30, 51, 22));
         start->setMaximum(2147483647);
         end = new QSpinBox(BPMGenerator);
-        end->setObjectName(QStringLiteral("end"));
+        end->setObjectName(QString::fromUtf8("end"));
         end->setGeometry(QRect(120, 60, 51, 22));
         end->setMaximum(2147483647);
         startoffset = new QSpinBox(BPMGenerator);
-        startoffset->setObjectName(QStringLiteral("startoffset"));
+        startoffset->setObjectName(QString::fromUtf8("startoffset"));
         startoffset->setGeometry(QRect(290, 90, 51, 22));
         startoffset->setMaximum(2147483647);
         label_5 = new QLabel(BPMGenerator);
-        label_5->setObjectName(QStringLiteral("label_5"));
+        label_5->setObjectName(QString::fromUtf8("label_5"));
         label_5->setGeometry(QRect(230, 90, 61, 21));
         label_8 = new QLabel(BPMGenerator);
-        label_8->setObjectName(QStringLiteral("label_8"));
+        label_8->setObjectName(QString::fromUtf8("label_8"));
         label_8->setGeometry(QRect(30, 90, 81, 21));
         bpmcorr = new QDoubleSpinBox(BPMGenerator);
-        bpmcorr->setObjectName(QStringLiteral("bpmcorr"));
+        bpmcorr->setObjectName(QString::fromUtf8("bpmcorr"));
         bpmcorr->setGeometry(QRect(120, 90, 61, 22));
         bpmcorr->setDecimals(5);
-        bpmcorr->setMinimum(-1);
-        bpmcorr->setMaximum(1);
-        bpmcorr->setSingleStep(0.005);
+        bpmcorr->setMinimum(-1.000000000000000);
+        bpmcorr->setMaximum(1.000000000000000);
+        bpmcorr->setSingleStep(0.005000000000000);
 
         retranslateUi(BPMGenerator);
 

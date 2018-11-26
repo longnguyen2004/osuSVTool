@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'MoveTimingPoints.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.2
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -33,29 +33,29 @@ public:
     void setupUi(QWidget *MoveTimingPoints)
     {
         if (MoveTimingPoints->objectName().isEmpty())
-            MoveTimingPoints->setObjectName(QStringLiteral("MoveTimingPoints"));
+            MoveTimingPoints->setObjectName(QString::fromUtf8("MoveTimingPoints"));
         MoveTimingPoints->resize(400, 476);
         label_3 = new QLabel(MoveTimingPoints);
-        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(180, 240, 41, 16));
         movedTiming = new QTextEdit(MoveTimingPoints);
-        movedTiming->setObjectName(QStringLiteral("movedTiming"));
+        movedTiming->setObjectName(QString::fromUtf8("movedTiming"));
         movedTiming->setGeometry(QRect(70, 270, 261, 141));
         movedTiming->setReadOnly(true);
         origTiming = new QTextEdit(MoveTimingPoints);
-        origTiming->setObjectName(QStringLiteral("origTiming"));
+        origTiming->setObjectName(QString::fromUtf8("origTiming"));
         origTiming->setGeometry(QRect(70, 90, 261, 141));
         label_2 = new QLabel(MoveTimingPoints);
-        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(140, 60, 131, 16));
         label = new QLabel(MoveTimingPoints);
-        label->setObjectName(QStringLiteral("label"));
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(126, 20, 61, 21));
         move = new QPushButton(MoveTimingPoints);
-        move->setObjectName(QStringLiteral("move"));
+        move->setObjectName(QString::fromUtf8("move"));
         move->setGeometry(QRect(160, 430, 75, 23));
         timeamount = new QSpinBox(MoveTimingPoints);
-        timeamount->setObjectName(QStringLiteral("timeamount"));
+        timeamount->setObjectName(QString::fromUtf8("timeamount"));
         timeamount->setGeometry(QRect(200, 20, 71, 22));
         timeamount->setMaximum(2147483647);
 

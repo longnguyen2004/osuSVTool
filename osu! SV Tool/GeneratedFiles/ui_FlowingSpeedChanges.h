@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'FlowingSpeedChanges.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.2
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -44,71 +44,71 @@ public:
     void setupUi(QDialog *FlowingSpeedChanges)
     {
         if (FlowingSpeedChanges->objectName().isEmpty())
-            FlowingSpeedChanges->setObjectName(QStringLiteral("FlowingSpeedChanges"));
+            FlowingSpeedChanges->setObjectName(QString::fromUtf8("FlowingSpeedChanges"));
         FlowingSpeedChanges->resize(529, 448);
         time1 = new QSpinBox(FlowingSpeedChanges);
-        time1->setObjectName(QStringLiteral("time1"));
+        time1->setObjectName(QString::fromUtf8("time1"));
         time1->setGeometry(QRect(110, 30, 71, 22));
         time1->setMaximum(2147483647);
         label_time1 = new QLabel(FlowingSpeedChanges);
-        label_time1->setObjectName(QStringLiteral("label_time1"));
+        label_time1->setObjectName(QString::fromUtf8("label_time1"));
         label_time1->setGeometry(QRect(40, 30, 51, 21));
         time2 = new QSpinBox(FlowingSpeedChanges);
-        time2->setObjectName(QStringLiteral("time2"));
+        time2->setObjectName(QString::fromUtf8("time2"));
         time2->setGeometry(QRect(290, 30, 71, 22));
         time2->setMaximum(2147483647);
         label_time2 = new QLabel(FlowingSpeedChanges);
-        label_time2->setObjectName(QStringLiteral("label_time2"));
+        label_time2->setObjectName(QString::fromUtf8("label_time2"));
         label_time2->setGeometry(QRect(220, 30, 51, 21));
         label_sv1 = new QLabel(FlowingSpeedChanges);
-        label_sv1->setObjectName(QStringLiteral("label_sv1"));
+        label_sv1->setObjectName(QString::fromUtf8("label_sv1"));
         label_sv1->setGeometry(QRect(40, 70, 61, 21));
         label_sv2 = new QLabel(FlowingSpeedChanges);
-        label_sv2->setObjectName(QStringLiteral("label_sv2"));
+        label_sv2->setObjectName(QString::fromUtf8("label_sv2"));
         label_sv2->setGeometry(QRect(220, 70, 61, 21));
         sv1 = new QDoubleSpinBox(FlowingSpeedChanges);
-        sv1->setObjectName(QStringLiteral("sv1"));
+        sv1->setObjectName(QString::fromUtf8("sv1"));
         sv1->setGeometry(QRect(110, 70, 71, 22));
-        sv1->setMaximum(10);
-        sv1->setSingleStep(0.01);
+        sv1->setMaximum(10.000000000000000);
+        sv1->setSingleStep(0.010000000000000);
         sv2 = new QDoubleSpinBox(FlowingSpeedChanges);
-        sv2->setObjectName(QStringLiteral("sv2"));
+        sv2->setObjectName(QString::fromUtf8("sv2"));
         sv2->setGeometry(QRect(290, 70, 71, 22));
-        sv2->setMaximum(10);
-        sv2->setSingleStep(0.01);
+        sv2->setMaximum(10.000000000000000);
+        sv2->setSingleStep(0.010000000000000);
         type = new QComboBox(FlowingSpeedChanges);
         type->addItem(QString());
         type->addItem(QString());
         type->addItem(QString());
         type->addItem(QString());
         type->addItem(QString());
-        type->setObjectName(QStringLiteral("type"));
+        type->setObjectName(QString::fromUtf8("type"));
         type->setGeometry(QRect(220, 110, 141, 22));
         step = new QSpinBox(FlowingSpeedChanges);
-        step->setObjectName(QStringLiteral("step"));
+        step->setObjectName(QString::fromUtf8("step"));
         step->setGeometry(QRect(110, 110, 71, 22));
         step->setMaximum(2147483647);
         label_5 = new QLabel(FlowingSpeedChanges);
-        label_5->setObjectName(QStringLiteral("label_5"));
+        label_5->setObjectName(QString::fromUtf8("label_5"));
         label_5->setGeometry(QRect(40, 110, 51, 21));
         output = new QTextEdit(FlowingSpeedChanges);
-        output->setObjectName(QStringLiteral("output"));
+        output->setObjectName(QString::fromUtf8("output"));
         output->setGeometry(QRect(40, 190, 441, 171));
         output->setReadOnly(true);
         label_6 = new QLabel(FlowingSpeedChanges);
-        label_6->setObjectName(QStringLiteral("label_6"));
+        label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setGeometry(QRect(240, 150, 47, 13));
         generate = new QPushButton(FlowingSpeedChanges);
-        generate->setObjectName(QStringLiteral("generate"));
+        generate->setObjectName(QString::fromUtf8("generate"));
         generate->setGeometry(QRect(220, 390, 75, 23));
         base = new QDoubleSpinBox(FlowingSpeedChanges);
-        base->setObjectName(QStringLiteral("base"));
+        base->setObjectName(QString::fromUtf8("base"));
         base->setGeometry(QRect(420, 60, 62, 22));
-        base->setMinimum(0.01);
-        base->setMaximum(100);
-        base->setSingleStep(0.01);
+        base->setMinimum(0.010000000000000);
+        base->setMaximum(100.000000000000000);
+        base->setSingleStep(0.010000000000000);
         label_base = new QLabel(FlowingSpeedChanges);
-        label_base->setObjectName(QStringLiteral("label_base"));
+        label_base->setObjectName(QString::fromUtf8("label_base"));
         label_base->setGeometry(QRect(420, 30, 61, 16));
 
         retranslateUi(FlowingSpeedChanges);

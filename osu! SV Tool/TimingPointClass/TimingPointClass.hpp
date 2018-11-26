@@ -15,7 +15,7 @@ public:
 	unsigned int kiai;
 	TimingPoint() {};
 	TimingPoint(std::string s);
-	std::string to_string();
+	virtual std::string to_string();
 };
 
 class UninheritedTimingPoint : public TimingPoint

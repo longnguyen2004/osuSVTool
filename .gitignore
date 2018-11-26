@@ -137,3 +137,8 @@ osu! SV Tool/GeneratedFiles/Release/moc_nxspeedchange.cpp
 osu! SV Tool/GeneratedFiles/Release/moc_osuSVTool.cpp
 osu! SV Tool/GeneratedFiles/Release/moc_svplotter.cpp
 osu! SV Tool/GeneratedFiles/qrc_osuSVTool.cpp
+*.pch
+*.log
+*.tlog
+*.idb
+*.pdb

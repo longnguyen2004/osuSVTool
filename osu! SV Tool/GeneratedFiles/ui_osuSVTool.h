@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'osuSVTool.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.2
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -33,31 +33,31 @@ public:
     void setupUi(QMainWindow *osuSVToolClass)
     {
         if (osuSVToolClass->objectName().isEmpty())
-            osuSVToolClass->setObjectName(QStringLiteral("osuSVToolClass"));
+            osuSVToolClass->setObjectName(QString::fromUtf8("osuSVToolClass"));
         osuSVToolClass->resize(541, 282);
         centralWidget = new QWidget(osuSVToolClass);
-        centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         NxSpeedChange = new QPushButton(centralWidget);
-        NxSpeedChange->setObjectName(QStringLiteral("NxSpeedChange"));
+        NxSpeedChange->setObjectName(QString::fromUtf8("NxSpeedChange"));
         NxSpeedChange->setGeometry(QRect(40, 40, 201, 51));
         BPMNormalize = new QPushButton(centralWidget);
-        BPMNormalize->setObjectName(QStringLiteral("BPMNormalize"));
+        BPMNormalize->setObjectName(QString::fromUtf8("BPMNormalize"));
         BPMNormalize->setGeometry(QRect(300, 40, 201, 51));
         MoveTimingPoints = new QPushButton(centralWidget);
-        MoveTimingPoints->setObjectName(QStringLiteral("MoveTimingPoints"));
+        MoveTimingPoints->setObjectName(QString::fromUtf8("MoveTimingPoints"));
         MoveTimingPoints->setGeometry(QRect(40, 110, 201, 51));
         InheritUninherit = new QPushButton(centralWidget);
-        InheritUninherit->setObjectName(QStringLiteral("InheritUninherit"));
+        InheritUninherit->setObjectName(QString::fromUtf8("InheritUninherit"));
         InheritUninherit->setGeometry(QRect(300, 110, 201, 51));
         FlowingSpeedChanges = new QPushButton(centralWidget);
-        FlowingSpeedChanges->setObjectName(QStringLiteral("FlowingSpeedChanges"));
+        FlowingSpeedChanges->setObjectName(QString::fromUtf8("FlowingSpeedChanges"));
         FlowingSpeedChanges->setGeometry(QRect(40, 180, 201, 51));
         BPMGen = new QPushButton(centralWidget);
-        BPMGen->setObjectName(QStringLiteral("BPMGen"));
+        BPMGen->setObjectName(QString::fromUtf8("BPMGen"));
         BPMGen->setGeometry(QRect(300, 180, 201, 51));
         osuSVToolClass->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(osuSVToolClass);
-        statusBar->setObjectName(QStringLiteral("statusBar"));
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
         osuSVToolClass->setStatusBar(statusBar);
 
         retranslateUi(osuSVToolClass);
