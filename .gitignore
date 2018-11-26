@@ -142,3 +142,17 @@ osu! SV Tool/GeneratedFiles/qrc_osuSVTool.cpp
 *.tlog
 *.idb
 *.pdb
+osu! SV Tool/GeneratedFiles/qrc_osuSVTool.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_bpmnormalization.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_flowingspeedchanges.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_movetimingpoints.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_nxspeedchange.cpp
+osu! SV Tool/GeneratedFiles/Release/moc_osuSVTool.cpp
+Win32/Release/osu! SV Tool.exe
+osu! SV Tool/x64/Release/qt.txt
+*.ilk
+Win32/Release/platforms/qwindows.dll
+Win32/Release/Qt5Core.dll
+Win32/Release/Qt5Gui.dll
+Win32/Release/Qt5Widgets.dll
+x64/Release/platforms/qwindows.dll

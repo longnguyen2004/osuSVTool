@@ -12,12 +12,4 @@ public:
 
 private:
 	Ui::osuSVToolClass ui;
-
-public slots:
-	void ShowNxSpeedChange();
-	void ShowBPMNormalize();
-	void ShowMoveTimingPoints();
-	// void ShowInheritedtoUninherited();
-	void ShowFlowingSpeedChanges();
-	void ShowBPMGenerator();
 };
